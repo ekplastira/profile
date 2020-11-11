@@ -1,0 +1,87 @@
+body  {
+  background-color: rgb(227, 188, 255);
+  color: black;
+  font-family: 'Satisfy', cursive;
+  font-size: 20px;
+  line-height: 30px
+  margin:0;
+  text-align: center;
+}
+
+h1  {
+  font-size: 50px;
+  color: black;
+  font-family: 'Roboto Condensed', sans-serif;
+  margin: 4px;
+
+}
+h2, h3 {
+  font-size: 25px;
+  color: black;
+  font-family: 'Roboto Condensed', sans-serif;
+  margin:0;
+}
+
+a {
+  color: blue;
+  text-decoration: none;
+}
+
+a:hover {
+  color: green;
+}
+
+.button:hover {
+  background-color: rgb(242, 208, 240);
+}
+
+
+.list-inline {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.container {
+  background-color: rgb(255, 255, 255, 0.7);
+  width: 700px;
+  margin: 12px auto;
+  border-radius: 10px;
+  padding: 8px 0;
+}
+
+@media (max-width: 720px) {
+.container {
+  background-color: rgb(255, 255, 255, 0.7);
+  width: 500px;
+  margin: 12px auto;
+  border-radius: 10px;
+  padding: 8px 0;
+}
+}
+
+@media (max-width: 540px) {
+.container {
+  background-color: rgb(255, 255, 255, 0.7);
+  width: 300px;
+  margin: 12px auto;
+  border-radius: 10px;
+  padding: 8px 0;
+}
+}
+.image-circle {
+  width: 150px;
+  text-align: center;
+  border-radius: 20%;
+  margin: 0;
+}
+
+.button {
+  text-align: center;
+  background: rgb(189, 214, 252) ;
+  padding: 10px;
+  margin: 30px auto;
+  border-radius: 7px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.002);
+  display: block;
+  width: 100px
+}
